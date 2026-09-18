@@ -20,3 +20,14 @@ estudiante = Estudiante("Carlos", 20, 4.2)
 # Mostramos la información del estudiante
 print("Información del estudiante:")
 estudiante.mostrarInfo()
+
+# Creamos tres instancias de Estudiante
+estudiante1 = Estudiante("Carlos", 20, 4.2)
+estudiante2 = Estudiante("Ana", 19, 4.5)
+estudiante3 = Estudiante("Luis", 21, 3.8)
+
+# Guardamos las instancias en una lista
+estudiantes = [estudiante1, estudiante2, estudiante3]
+
+# Mostramos la cantidad de estudiantes
+print("\nCantidad de estudiantes:", len(estudiantes))
