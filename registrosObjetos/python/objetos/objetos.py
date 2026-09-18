@@ -31,3 +31,10 @@ estudiantes = [estudiante1, estudiante2, estudiante3]
 
 # Mostramos la cantidad de estudiantes
 print("\nCantidad de estudiantes:", len(estudiantes))
+
+# Recorremos la lista de estudiantes
+print("\nInformacion de los estudiantes:")
+
+for estudiante in estudiantes:
+    estudiante.mostrarInfo()
+    print()

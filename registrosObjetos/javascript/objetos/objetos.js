@@ -34,3 +34,11 @@ let estudiantes = [estudiante1, estudiante2, estudiante3];
 
 // Mostramos la cantidad de estudiantes
 console.log("\nCantidad de estudiantes:", estudiantes.length);
+
+// Recorremos el arreglo de estudiantes
+console.log("\nInformacion de los estudiantes:");
+
+for (let estudiante of estudiantes) {
+    estudiante.mostrarInfo();
+    console.log();
+}
