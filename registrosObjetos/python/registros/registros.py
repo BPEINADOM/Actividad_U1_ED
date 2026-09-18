@@ -48,3 +48,12 @@ for estudiante in estudiantes:
     print("Edad:", estudiante["edad"])
     print("Promedio:", estudiante["promedio"])
     print()
+
+# Cambiamos el promedio de un estudiante especifico
+estudiante1["promedio"] = 4.8
+
+# Mostramos el estudiante despues de modificarlo
+print("\nEstudiante despues de modificar su promedio:")
+print("Nombre:", estudiante1["nombre"])
+print("Edad:", estudiante1["edad"])
+print("Promedio:", estudiante1["promedio"])

@@ -49,3 +49,12 @@ for (let estudiante of estudiantes) {
     console.log("Promedio:", estudiante.promedio);
     console.log();
 }
+
+// Cambiamos el promedio de un estudiante especifico
+estudiante1.promedio = 4.8;
+
+// Mostramos el estudiante despues de modificarlo
+console.log("\nEstudiante despues de modificar su promedio:");
+console.log("Nombre:", estudiante1.nombre);
+console.log("Edad:", estudiante1.edad);
+console.log("Promedio:", estudiante1.promedio);
