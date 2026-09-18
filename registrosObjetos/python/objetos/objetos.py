@@ -7,11 +7,15 @@ class Estudiante:
         self.edad = edad
         self.promedio = promedio
 
-    # Método para mostrar la información
+    # Metodo para mostrar la información
     def mostrarInfo(self):
         print("Nombre:", self.nombre)
         print("Edad:", self.edad)
         print("Promedio:", self.promedio)
+
+    # Metodo para modificar el promedio
+    def setPromedio(self, nuevo_promedio):
+        self.promedio = nuevo_promedio
 
 
 # Creamos una instancia de la clase Estudiante
@@ -38,3 +42,10 @@ print("\nInformacion de los estudiantes:")
 for estudiante in estudiantes:
     estudiante.mostrarInfo()
     print()
+
+# Cambiamos el promedio de Carlos
+estudiante1.setPromedio(4.8)
+
+# Mostramos el estudiante despues de modificarlo
+print("\nEstudiante después de modificar su promedio:")
+estudiante1.mostrarInfo()

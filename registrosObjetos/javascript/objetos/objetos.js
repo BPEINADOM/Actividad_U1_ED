@@ -14,6 +14,11 @@ class Estudiante {
         console.log("Edad:", this.edad);
         console.log("Promedio:", this.promedio);
     }
+
+    // Método para modificar el promedio
+    setPromedio(nuevoPromedio) {
+        this.promedio = nuevoPromedio;
+    }
 }
 
 
@@ -42,3 +47,10 @@ for (let estudiante of estudiantes) {
     estudiante.mostrarInfo();
     console.log();
 }
+
+// Cambiamos el promedio de Carlos
+estudiante1.setPromedio(4.8);
+
+// Mostramos el estudiante después de modificarlo
+console.log("\nEstudiante después de modificar su promedio:");
+estudiante1.mostrarInfo();
