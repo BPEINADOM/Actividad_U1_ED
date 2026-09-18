@@ -36,3 +36,16 @@ console.log("\nRegistro de estudiantes:");
 console.log(estudiante1);
 console.log(estudiante2);
 console.log(estudiante3);
+
+// Guardamos los estudiantes en un arreglo
+let estudiantes = [estudiante1, estudiante2, estudiante3];
+
+// Recorremos el arreglo y mostramos los datos
+console.log("\nRecorrido de los estudiantes:");
+
+for (let estudiante of estudiantes) {
+    console.log("Nombre:", estudiante.nombre);
+    console.log("Edad:", estudiante.edad);
+    console.log("Promedio:", estudiante.promedio);
+    console.log();
+}

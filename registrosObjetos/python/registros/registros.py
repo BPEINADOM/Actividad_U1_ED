@@ -36,3 +36,15 @@ print("\nRegistro de estudiantes:")
 print(estudiante1)
 print(estudiante2)
 print(estudiante3)
+
+# Guardamos los estudiantes en una lista
+estudiantes = [estudiante1, estudiante2, estudiante3]
+
+# Recorremos la lista y mostramos los datos
+print("\nRecorrido de los estudiantes:")
+
+for estudiante in estudiantes:
+    print("Nombre:", estudiante["nombre"])
+    print("Edad:", estudiante["edad"])
+    print("Promedio:", estudiante["promedio"])
+    print()
